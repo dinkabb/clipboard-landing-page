@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header {
+  background: url(./images/bg-header-desktop.png) no-repeat center/cover;
+}
+
+.header-image {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.header-bold,
+.first-header-header,
+.first-search-header,
+.first-sync-header,
+.first-history-header,
+.second-header-header,
+.third-header-header,
+.third-blacklist-header,
+.third-snippets-header,
+.third-preview-header,
+.fourth-header-header {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.header-bold {
+  font-size: 32px;
+  margin: auto;
+  padding: 1%;
+}
+
+.header-text {
+  font-size: 15px;
+  margin: auto;
+  padding: 1%;
+  line-height: 25px;
+  color: hsl(201, 11%, 66%);
+}
+
+.button1,
+.button2 {
+  font-weight: 600;
+  border-style: none;
+  padding: 1% 2%;
+  border-radius: 2.8rem;
+  margin-right: 1.6rem;
+  color: white;
+  transition: all ease-in 0.3s;
+  box-shadow: inset 0 -0.4rem 0 0 hsla(212, 10%, 33%, 0.5);
+}
+.button1 {
+  background-color: hsl(171, 66%, 44%);
+}
+.button2 {
+  background-color: hsl(233, 100%, 69%);
+}
+.button1:hover,
+.button1:active {
+  background-color: hsla(171, 66%, 44%, 0.7);
+  cursor: pointer;
+  box-shadow: inset 0 -0.4rem 0 0 hsla(212, 10%, 33%, 0.15);
+}
+.button2:hover,
+.button2:active {
+  background-color: hsla(233, 100%, 69%, 0.7);
+  cursor: pointer;
+  box-shadow: inset 0 -0.4rem 0 0 hsla(212, 10%, 33%, 0.15);
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  padding-top: 5%;
+}
+
+.first-header-header,
+.second-header-header,
+.third-header-header,
+.fourth-header-header {
+  font-size: 28px;
+}
+
+.first-header-text,
+.second-header-text,
+.third-header-text,
+.fourth-header-text {
+  font-size: 13px;
+  padding: 1%;
+  line-height: 20px;
+  color: hsl(201, 11%, 66%);
+}
+
+.first-body {
+  display: flex;
+  padding: 5%;
+}
+
+.first-search-header,
+.first-sync-header,
+.first-history-header {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.first-search-text,
+.first-sync-text,
+.first-history-text {
+  font-size: 12px;
+  text-align: left;
+  padding-top: 5%;
+  color: hsl(201, 11%, 66%);
+}
+
+.first-article {
+  box-sizing: border-box;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-search,
+.first-sync,
+.first-history {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.second-image {
+  padding: 5%;
+}
+
+.third-body {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.third-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+.third-blacklist,
+.third-snippets,
+.third-preview {
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+.third-image-blacklist,
+.third-image-snippets,
+.third-image-preview {
+  padding: 5%;
+}
+
+.third-blacklist-text,
+.third-snippets-text,
+.third-preview-text {
+  font-size: 12px;
+  padding: 5%;
+  color: hsl(201, 11%, 66%);
+}
+
+.fourth {
+  padding-bottom: 10%;
+}
+.fourth-header-text {
+  padding-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: rgba(159, 171, 178, 0.1);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.logo {
+  padding: 10%;
+  max-width: 10%;
+}
+.footer-links li {
+  margin-bottom: 10%;
+}
+.footer-link {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  line-height: 40px;
+  color: #4c545d;
+  transition: color 0.25s ease-in-out;
+}
+.footer-link:hover {
+  color: #26baa4;
+}
